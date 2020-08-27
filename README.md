@@ -25,6 +25,7 @@ visibleChange(isVisible){
 #### iframe src=*.PDF 时， el-dialog弹窗的层级在iframe 之下的问题
 ```html
   <iframe v-show="dialogVisible" id='iframebar' src="about:blank" frameBorder=0  marginHeight=0 marginWidth=0
-      style="position:absolute;visibility:inherit; top:0px;left:0px;height:100%;width:100%;z-index:2;background:rgba(255, 255, 255,                .2);filter='progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=0)'">
+      style="position:absolute;visibility:inherit; top:0px;left:0px;height:100%;width:100%;z-index:2;background:rgba(255, 255, 255,
+             .2);filter='progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=0)'">
   </iframe>
 ```
